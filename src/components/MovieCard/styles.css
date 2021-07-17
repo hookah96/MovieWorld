@@ -1,0 +1,26 @@
+.card-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 2rem 0rem;
+  padding: 0rem 2rem;
+  width: 60%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.author {
+  color: var(--main-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.author:hover {
+  text-decoration: underline;
+}

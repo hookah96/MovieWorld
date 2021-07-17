@@ -1,0 +1,36 @@
+.page-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0.5rem;
+}
+
+.submit-btn {
+  width: 12%;
+  margin: 1rem;
+  padding: 0.5rem;
+  background: var(--main-blue);
+  color: white;
+  border: 1px solid var(--main-blue);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.submit-btn:hover {
+  width: 14%;
+}
